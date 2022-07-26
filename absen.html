@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="absen.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Formulir dan Absen</title>
+  </head>
+  <body>
+    <div class="formulir">
+        <div class="container mt-5 d-flex justify-content-end">
+            <div class="absen">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Form Absen
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">
+                                    
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- ===== Content Absen ===== -->
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="InputNama" class="form-label">Nama</label>
+                                        <input type="text" class="form-control" id="InputNama">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="InputTingkatan" class="form-label">Tingkatan</label>
+                                        <select class="form-select" id="labelSelect" aria-label="Default select example">
+                                            <option selected disabled>Pilih</option>
+                                            <option value="1">Sabuk Putih (Pra-Pemula)</option>
+                                            <option value="2">Sabuk Kuning (Pemula)</option>
+                                            <option value="3">Sabuk Hijau (Dasar I)</option>
+                                            <option value="4">Sabuk Putih (Dasar II)</option>
+                                            <option value="5">Sabuk Putih (Asisten Pelatih)</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="InputDate" class="form-label">Password</label>
+                                        <input type="date" class="form-control" id="InputDate">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="statistik">
+        <div class="container mt-5">
+            <div class="bg-dark rounded-3">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod atque iure ipsum beatae facilis suscipit. Dolorum voluptatum accusamus, autem molestias natus porro incidunt voluptates deleniti quis architecto, tenetur voluptatibus perferendis temporibus sequi cum. Temporibus ab dignissimos distinctio nulla esse dolorem quidem, eaque nesciunt quam possimus, ullam nobis inventore sunt vel, corrupti commodi accusantium repudiandae ducimus optio aspernatur sed tempore? Ipsum aspernatur illo vero reprehenderit iusto! Ex voluptas nam sequi ut officiis sed a laborum possimus eius molestias! Earum tempora consequatur autem pariatur nam officia quo eius porro. Excepturi voluptas, velit dolore similique placeat aliquid consectetur tempore praesentium, doloremque obcaecati exercitationem.
+                </p>
+            </div>
+        </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+   
+  </body>
+</html>
